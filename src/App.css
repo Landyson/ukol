@@ -40,3 +40,16 @@
 .read-the-docs {
   color: #888;
 }
+
+:root {
+  --primary-color: #3498db;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.alert {
+  border-left: 5px solid var(--primary-color);
+}
